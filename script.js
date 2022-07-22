@@ -29,7 +29,7 @@ let months = [
   "Dec",
 ];
 let month = months[now.getMonth()];
-h3.innerHTML = `${day}, ${month} ${date}, ${year} <br /> Current Time: ${hours}:${minutes}`;
+h3.innerHTML = `${day}, ${month} ${date}, ${year}, ${hours}:${minutes}`;
 
 function search(city) {
   let apiKey = "ca5b7f2d8535cadcd8f5264fda720408";
